@@ -9,3 +9,4 @@ Project to learn electron basics.
 - You can use the process global's `platform` attribute to run code specifically for certain operating systems.
 - You can't just edit the DOM from the main process because it has no access to the renderer's document context. They're in entirely different processes! `preload` solves this.
   -  A preload script runs before the renderer process is loaded, and has access to both renderer globals (e.g. window and document) and a Node.js environment.
+- For any interactions with your web contents, you want to add scripts to your renderer process.
