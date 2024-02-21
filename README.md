@@ -1,6 +1,6 @@
 # Hello Electron
 
-Project to learn electron basics.
+Project to learn [electron basics](https://www.electronjs.org/docs/latest/tutorial/quick-start).
 
 ## Notes
 
@@ -16,3 +16,4 @@ Project to learn electron basics.
     npm install --save-dev @electron-forge/cli
     npx electron-forge import
     ```
+  - `npm run make`
